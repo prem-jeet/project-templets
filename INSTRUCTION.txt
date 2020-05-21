@@ -1,0 +1,68 @@
+Instructions:
+  {
+      Step 1:
+        Clone or Download the repo to your local machine.
+
+      Step 2:
+        Make sure you have node and npm install
+        { 
+          { for node : type the following in terminal -> ("node --version") to check for the existance of node.
+          for npm : type type the following in terminal -> ("npm --version") to check for the existance of npm.
+        }
+
+      Step 3:
+        After cloning/downloading the repository go into "project-templets" folder.
+        and Open terminal under administrative privilege.
+
+      Step 4:
+        type -> "npm i" (to install the ncessary modules)
+
+      Step 5: 
+        type -> "npm link"
+
+      /* once the above steps are completed successfully go to  "templets" folder 
+
+        There are two folders, you can delete them and create your own custom templets
+
+        (I work with p5.js snd d3.js so my folders contain the html,css,js files I use in my prohects)
+      */
+
+      Step 6:
+        After creating your custom templets, you need to link again.
+        So open cmd and type-> "npm link' (this is to be done whenever you make changes to the current templets or add new ones)
+}
+  
+  
+USE:
+  {
+      After successfully going to the abobe steps, your life is going to be much easier now.
+      No need to create folders or files or writing the initial same code over and over again.
+
+      Just open the folder whete you want to create a new project.
+      Open terminal and type "startproject"
+      { You will see somthing like below:
+            " ? What project template would you like to generate? (Use arrow keys)
+            > html-offline
+              html-online "
+
+       Insted of " html-offline & html-online " you will see the folders you have created 
+       (inside which you have already craeted your custom templets).
+
+       Choose the folder whos templet you wish to use.
+       Then you will be prompted to give your project a name, do so and hit Enter.
+  }
+  
+   
+AWESOME! you have created a new project in just two lines of code, with all the initial code already written in it.
+No need to type the same old templet again and again.
+
+-> NOTES:
+    -> for your custom templets, you can also store your lib. lifes in them
+    -> whatever is in your chosen folder i.e " project-templets/templets/(your custome templet folder)"
+       will be copied as itis in your project folder.
+    -> changes made in your project folder will not reflect in your templet folder. they are local to your project only.
+    -> feel free to explore and use my templets to explore the tools, before setting up your own custom templet.
+   
+
+  
+  
