@@ -3,7 +3,7 @@
 ## Clone Repo
 
 ```
-https://github.com/baby-oopsy-daisy/project-templets.git
+git clone https://github.com/baby-oopsy-daisy/project-templets.git
 ```
 
 ## Install Dependncies 
