@@ -3,7 +3,7 @@
 ## Clone Repo
 
 ```
-git clone https://github.com/onlinegurucool/generate-project-node.git
+https://github.com/baby-oopsy-daisy/project-templets.git
 ```
 
 ## Install Dependncies 
